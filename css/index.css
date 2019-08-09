@@ -71,7 +71,7 @@ p {
     margin: 0 auto;
 }
 
-.navbar {
+nav {
     /* background-color: pink; */
     display: flex;
     justify-content: space-between;
@@ -80,13 +80,13 @@ p {
     padding: 10px 40px 10px 0px;
 }
 
-.navbar a {
+nav a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
 
-.navbar a:hover {
+nav a:hover {
     color: crimson;
     font-size: 20px;
 }
