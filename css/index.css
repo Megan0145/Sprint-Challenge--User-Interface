@@ -87,7 +87,7 @@ p {
 }
 
 .navbar a:hover {
-    color: red;
+    color: crimson;
     font-size: 20px;
 }
 
@@ -214,6 +214,11 @@ footer nav a {
     height: 40px;
     border-radius: 10px;
     font-size: 15px;
+}
+
+.learn-more-btn:hover {
+    background-color: crimson;
+    color: white;
 }
 
 .bottom-content-about {
