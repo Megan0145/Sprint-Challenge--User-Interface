@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
