@@ -196,7 +196,16 @@ footer nav a {
     justify-content: space-around;
     width: 370px;
     height: 428px;
-    margin: 0px 20px;
+    margin: 20px 20px;
     padding-bottom: 10px;
     border-bottom: 1px dashed black;
+}
+
+.learn-more-btn {
+    text-decoration: none;
+    border: 2px solid black;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
 }
