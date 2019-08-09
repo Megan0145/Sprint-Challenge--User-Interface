@@ -224,3 +224,19 @@ footer nav a {
 .bottom-content-about {
     margin:20px;
 }
+
+.top-content-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.jumbo-contact {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+    color: whitesmoke;
+}
