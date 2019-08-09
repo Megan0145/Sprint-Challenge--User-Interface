@@ -179,3 +179,24 @@ footer nav a {
 .top-content-about {
     margin: 0px 20px 20px 20px;
 }
+
+.middle-content-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content-about-row {
+    display:flex;
+}
+
+.middle-content-about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 370px;
+    height: 428px;
+    margin: 0px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
