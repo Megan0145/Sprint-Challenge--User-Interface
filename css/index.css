@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: flex-end;
+    padding: 10px 40px 10px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: crimson;
+    transform: scale(1.4);
+    transition: all ease 500ms;
+}
+
+.jumbo-image {
+    padding: 10px 0px 20px 0px; 
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +130,24 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* box styling */
+.box1 {background-color: teal}
+.box2 {background-color: gold}
+.box3 {background-color: cadetblue}
+.box4 {background-color: coral} 
+.box5 {background-color: crimson} 
+.box6 {background-color: forestgreen} 
+.box7 {background-color: darkorchid} 
+.box8 {background-color: hotpink} 
+.box9 {background-color: indigo} 
+.box10 {background-color: dodgerblue} 
 
 .bottom-content {
     display: flex;
@@ -144,3 +181,99 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-content-about {
+    margin: 0px 20px 20px 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content-about-row {
+    display:flex;
+    justify-content: space-around;
+}
+
+.middle-content-about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 370px;
+    height: 428px;
+    margin: 20px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more-btn {
+    text-decoration: none;
+    border: 2px solid black;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.learn-more-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.bottom-content-about {
+    margin:20px;
+}
+
+.top-content-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.jumbo-contact {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    background-color: crimson;
+    color: whitesmoke;
+    line-height: 1.5;
+    padding: 20px 20px 0px 20px; 
+}
+
+.contact-arrow img{
+    width:60px;
+    height: 60px;
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 20px;
+    border: 1.5px dashed black;
+}
+
+  form input, textarea {
+      margin: 10px;
+      width: 200px;
+      border: 1px solid black;
+  }
+ 
+  #submit {
+      padding: 20px;
+      font-size: 20px;
+      background-color: black;
+      color: whitesmoke;
+      cursor: pointer;
+  }
+
+  #submit:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+  }

@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+This is the use of appropiate tags to describe the content that you put in them. For example, using h1 - h6 for headings as opposed to using just p tags and using css to style them to look like headings. This means that people with visual impairments can understand the content of your webpages via screen readers. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+```display:block;``` : Elements that have their display property set to 'block' disrupt the flow of the page and take up as mush space as their parent element will allow. They can be styled using width and height. Eg divs, images
+
+```display:inline:``` : Elements that have their display property set to 'inline' do not disrupt the flow of the page. They only take up as much space as their content and cannot be styled using width and height. Eg paragraph and anchor tags
 
 3. What are the 4 areas of the box model?
 
+Content
+Padding
+Border
+Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-Axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to collaborate on the same project and keep track of all changes made across the team using version control. Developers can clone the project from the master branch, work on different files and easily merge the changes back into the master branch for other team members to access/collaborate on.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
